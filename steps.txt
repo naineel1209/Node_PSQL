@@ -1,0 +1,7 @@
+How to connect to Postgres using NodeJS
+
+1. Make a list of environment variables
+2. get the pool and the client
+3. connect to client
+4. make a query
+5. disconnect from the client

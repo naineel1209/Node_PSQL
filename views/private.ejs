@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a Private Page only accessed by the logged in users</title>
+</head>
+
+<body>
+    <h1>This is a Private Page only accessed by the logged in users</h1>
+
+    <h2>Welcome <%= user.name %>
+    </h2>
+    <h3>Your email is <%= user.email %>
+    </h3>
+    <h3>Your user id is <%= user.user_id%>
+    </h3>
+    <h3>Your role is <%= user.role%>
+    </h3>
+    <h3>Your created at is <%= user.created_at%>
+    </h3>
+    <h3> Your date_of_birth is <%= user.date_of_birth %>
+    </h3>
+
+
+    <a href="/auth/logout">Logout</a>
+</body>
+
+</html>
